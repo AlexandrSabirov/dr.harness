@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Alexandr Sabirov">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dr.Harness</title>
+    <script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="slick/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+<div class="page">
+
+<header class="header" id="header">
+    <div class="container">
+        <div class="header__inner">
+            <a class="logo" href="#"></a>
+            
+            <nav class="nav">
+                <a class="nav__link" href="#" data-scroll="#catalog">Каталог</a>
+                <a class="nav__link" href="#" data-scroll="#advantage">Преимущества</a>
+                <a class="nav__link" href="#" >Отзывы</a>
+                <a class="nav__link" href="#" data-scroll="#buy">Как заказать</a>
+            </nav>
+        </div>
+    </div>
+</header>
+<!--.banner-->
+<section class="banner" id="banner">
+     <div class="banner__girl">
+           <img src="images/girl_left.png">
+           <img src="images/girl_rigth.png">
+       </div>
+    <div class="container">
+     
+       <div class="banner__content">
+           <h3 class="banner__title">Женские кожаные портупеи</h3>
+           <h1 class="banner__logo">Dr.Harness</h1>
+           <h4 class="banner__discount">Любая модель со скидкой 50%</h4>
+           <h2 class="banner__price">всего за <span>2990 р.</span> </h2>
+           <div class="banner__btn">
+               <button class="btn" type="button"  data-filter="everyday" data-scroll="#catalog">Повседневный портупей</button>
+               <button class="btn" type="button"  data-filter="erotic" data-scroll="#catalog">Эротический портупей</button>
+           </div>
+       </div>
+    </div>
+</section>
+<!--./banner-->
+
+<!--.advantage-->
+<section class="advantage" id="advantage">
+    <div class="container">
+        <div class="advantage__inner">
+            <h1 class="header__title">Хит №1 в мире – модные жеские портупеи </h1>
+            <div class="advantage__text">
+                <p>Как и все кожаные аксессуары, портупея находится сегодня на пике востребованности в мире моды, даря своей обладательнице внимание и уверенность в себе.</p>
+                <p>Многообразие видов портупей – это как Характер каждой девушки: от портупеи из тонких ремешков для романтичных и женственных натур, до сложных сплетений из средних и широких - для дерзких и раскрепощенных.</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="advantage__slider">
+      <div><img class="advantage__img" src="images/slider_img/sl_1.png" alt=""></div>
+      <div><img class="advantage__img" src="images/slider_img/sl_2.png" alt=""></div>
+      <div><img class="advantage__img" src="images/slider_img/sl_3.png" alt=""></div>
+      <div><img class="advantage__img" src="images/slider_img/sl_4.png" alt=""></div>
+      <div><img class="advantage__img" src="images/slider_img/sl_5.png" alt=""></div>
+      <div><img class="advantage__img" src="images/slider_img/sl_1.png" alt=""></div>
+      <div><img class="advantage__img" src="images/slider_img/sl_2.png" alt=""></div>
+      <div><img class="advantage__img" src="images/slider_img/sl_3.png" alt=""></div>
+      <div><img class="advantage__img" src="images/slider_img/sl_4.png" alt=""></div>
+      <div><img class="advantage__img" src="images/slider_img/sl_5.png" alt=""></div>
+    </div>
+</section>
+<!--./advantage-->
+
+<!--.size__table-->
+<section class="size__table">
+    <div class="container">
+        <div class="size__table__inner">
+            <h1 class="header__title">Таблица размеров </h1>
+            
+            <table class="sizes">
+                <tr>
+                    <td>Международный</td>
+                    <td>XS</td>
+                    <td>S</td>
+                    <td>M</td>
+                    <td>L</td>
+                    <td>XL</td>
+                    <td>XXL</td>
+                </tr>
+                <tr>
+                    <td>Росийский</td>
+                    <td>40</td>
+                    <td>42</td>
+                    <td>44/46</td>
+                    <td>48/50</td>
+                    <td>52/54</td>
+                    <td>56</td>
+                </tr>               
+                <tr>
+                    <td>Бедра (см)</td>
+                    <td>84-92</td>
+                    <td>92-95</td>
+                    <td>96-101</td>
+                    <td>102-108</td>
+                    <td>109-116</td>
+                    <td>117-121</td>
+                </tr>
+                <tr>
+                    <td>Талия (см)</td>
+                    <td>60-65</td>
+                    <td>66-69</td>
+                    <td>70-77</td>
+                    <td>78-85</td>
+                    <td>86-95</td>
+                    <td>96-102</td>
+                </tr>
+                <tr>
+                    <td>Грудь (см)</td>
+                    <td>74-80</td>
+                    <td>82-85</td>
+                    <td>86-93</td>
+                    <td>94-102</td>
+                    <td>103-113</td>
+                    <td>114-119</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</section>
+<!--./size__table-->
+
+<!--.catalog-->
+<section class="catalog" id="catalog">
+    <div class="container">
+        <div class="catalog__inner">
+            <h1 class="header__title">Каталог </h1>
+            
+            <div class="catalog__content">
+               <div class="catalog__btn">
+                   <button class="btn btn--catalog active" type="button"  data-filter="everyday">Повседневный портупей</button>
+                   <button class="btn btn--catalog" type="button"  data-filter="erotic">Эротический портупей</button>
+               </div>
+               <div class="catalog__product">
+<!-- .product__item-->
+                   <div class="product__item" data-category="everyday">
+                       <div class="product__discount">-53%</div>
+                       <img class="product__img" src="images/catalog/product_item_1.png" alt="">
+                       <h3 class="product__title">Портупея “Пеппи”</h3>
+                       
+                       <div class="product__sizes">
+                           <button class="button__size active" type="button" data-id="1" data-value="xs">xs</button>
+                           <button class="button__size " type="button" data-id="1" data-value="s">s</button>
+                           <button class="button__size" type="button" data-id="1" data-value="m">m</button>
+                           <button class="button__size" type="button" data-id="1" data-value="l">l</button>
+                           <button class="button__size" type="button" data-id="1" data-value="xl">xl</button>
+                           <button class="button__size" type="button" data-id="1" data-value="xxl">xxl</button>
+                       </div>
+                       
+                       <div class="product__color">
+                           <button class="button__color button__color--black active" data-nomer="1" data-color="black"></button>
+                           <button class="button__color button__color--red" data-nomer="1" data-color="red"></button>
+                       </div>
+                       
+                       <div class="product__price">
+                              <span class="price__normal">4990 р.</span>
+                              <span class="price__discount">2990 р.</span>
+                       </div>
+                       <button class="btn btn--buy" type="button"  data-modal="#modal__buy">Заказать</button>
+                   </div>
+<!-- ./product__item-->                   
+<!-- .product__item-->
+                   <div class="product__item" data-category="everyday">
+                       <div class="product__discount">-53%</div>
+                       <img class="product__img" src="images/catalog/product_item_2.png" alt="">
+                       <h3 class="product__title">Портупея “Влади”</h3>
+                       
+                       <div class="product__sizes">
+                           <button class="button__size active" type="button" data-id="2" data-value="xs">xs</button>
+                           <button class="button__size" type="button" data-id="2" data-value="s">s</button>
+                           <button class="button__size" type="button" data-id="2" data-value="m">m</button>
+                           <button class="button__size" type="button" data-id="2" data-value="l">l</button>
+                           <button class="button__size" type="button" data-id="2" data-value="xl">xl</button>
+                           <button class="button__size" type="button" data-id="2" data-value="xxl">xxl</button>
+                       </div>
+                       
+                       <div class="product__color">
+                           <button class="button__color button__color--black active" data-nomer="2" data-color="black"></button>
+                       </div>
+                       
+                       <div class="product__price">
+                           <span class="price__normal">4990 р.</span>
+                           <span class="price__discount">2990 р.</span>
+                          
+                       </div>
+                       <button class="btn btn--buy" type="button"  data-modal="#modal__buy">Заказать</button>
+                   </div>
+<!-- ./product__item-->       
+<!-- .product__item-->
+                   <div class="product__item" data-category="everyday">
+                       <div class="product__discount">-53%</div>
+                       <img class="product__img" src="images/catalog/product_item_3.png" alt="">
+                       <h3 class="product__title">Портупея “Джони Миллер”</h3>
+                       
+                       <div class="product__sizes">
+                           <button class="button__size active" type="button" data-id="3" data-value="xs">xs</button>
+                           <button class="button__size" type="button" data-id="3" data-value="s">s</button>
+                           <button class="button__size" type="button" data-id="3" data-value="m">m</button>
+                           <button class="button__size" type="button" data-id="3" data-value="l">l</button>
+                           <button class="button__size" type="button" data-id="3" data-value="xl">xl</button>
+                           <button class="button__size" type="button" data-id="3" data-value="xxl">xxl</button>
+                       </div>
+                       
+                       <div class="product__color">
+                           <button class="button__color button__color--black active" data-nomer="3" data-color="black"></button>
+                           <button class="button__color button__color--red" data-nomer="3" data-color="red"></button>
+                       </div>
+                       
+                       <div class="product__price">
+                              <span class="price__normal">4990 р.</span>
+                              <span class="price__discount">2990 р.</span>
+                       </div>
+                       <button class="btn btn--buy" type="button"  data-modal="#modal__buy">Заказать</button>
+                   </div>
+<!-- ./product__item-->            
+<!-- .product__item-->
+                   <div class="product__item" data-category="everyday">
+                       <div class="product__discount">-53%</div>
+                       <img class="product__img" src="images/catalog/product_item_2.png" alt="">
+                       <h3 class="product__title">Портупея “Влади”</h3>
+                       
+                       <div class="product__sizes">
+                           <button class="button__size active" type="button" data-id="4" data-value="xs">xs</button>
+                           <button class="button__size" type="button" data-id="4" data-value="s">s</button>
+                           <button class="button__size" type="button" data-id="4" data-value="m">m</button>
+                           <button class="button__size" type="button" data-id="4" data-value="l">l</button>
+                           <button class="button__size" type="button" data-id="4" data-value="xl">xl</button>
+                           <button class="button__size" type="button" data-id="4" data-value="xxl">xxl</button>
+                       </div>
+                       
+                       <div class="product__color">
+                           <button class="button__color button__color--black active" data-nomer="4" data-color="black"></button>
+                           <button class="button__color button__color--red" data-nomer="4" data-color="red"></button>
+                       </div>
+                       
+                       <div class="product__price">
+                              <span class="price__normal">4990 р.</span>
+                              <span class="price__discount">2990 р.</span>
+                       </div>
+                       <button class="btn btn--buy" type="button"  data-modal="#modal__buy">Заказать</button>
+                   </div>
+<!-- ./product__item-->                     
+<!-- .product__item-->
+                   <div class="product__item" data-category="erotic">
+                       <div class="product__discount">-53%</div>
+                       <img class="product__img" src="images/catalog/product_item_4.png" alt="">
+                       <h3 class="product__title">Портупея “Боди”</h3>
+                       
+                       <div class="product__sizes">
+                           <button class="button__size active" type="button" data-id="5" data-value="xs">xs</button>
+                           <button class="button__size" type="button" data-id="5" data-value="s">s</button>
+                           <button class="button__size" type="button" data-id="5" data-value="m">m</button>
+                           <button class="button__size" type="button" data-id="5" data-value="l">l</button>
+                           <button class="button__size" type="button" data-id="5" data-value="xl">xl</button>
+                           <button class="button__size" type="button" data-id="5" data-value="xxl">xxl</button>
+                       </div>
+                       
+                       <div class="product__color">
+                           <button class="button__color button__color--black active" data-nomer="5" data-color="black"></button>
+                           <button class="button__color button__color--red" data-nomer="5" data-color="red"></button>
+                       </div>
+                       
+                       <div class="product__price">
+                              <span class="price__normal">4990 р.</span>
+                              <span class="price__discount">2990 р.</span>
+                       </div>
+                       <button class="btn btn--buy" type="button"  data-modal="#modal__buy">Заказать</button>
+                   </div>
+<!-- ./product__item-->                   
+<!-- .product__item-->
+                   <div class="product__item" data-category="everyday">
+                       <div class="product__discount">-53%</div>
+                       <img class="product__img" src="images/catalog/product_item_1.png" alt="">
+                       <h3 class="product__title">Портупея “Пелли”</h3>
+                       
+                       <div class="product__sizes">
+                           <button class="button__size active" type="button" data-id="6" data-value="xs">xs</button>
+                           <button class="button__size" type="button" data-id="6" data-value="s">s</button>
+                           <button class="button__size" type="button" data-id="6" data-value="m">m</button>
+                           <button class="button__size" type="button" data-id="6" data-value="l">l</button>
+                           <button class="button__size" type="button" data-id="6" data-value="xl">xl</button>
+                           <button class="button__size" type="button" data-id="6" data-value="xxl">xxl</button>
+                       </div>
+                       
+                       <div class="product__color">
+                           <button class="button__color button__color--black active" data-nomer="6" data-color="black"></button>
+                          
+                       </div>
+                       
+                       <div class="product__price">
+                              <span class="price__normal">4990 р.</span>
+                              <span class="price__discount">2990 р.</span>
+                       </div>
+                       <button class="btn btn--buy" type="button"  data-modal="#modal__buy">Заказать</button>
+                   </div>
+<!-- ./product__item-->                   
+<!-- .product__item-->
+                   <div class="product__item" data-category="everyday">
+                       <div class="product__discount">-53%</div>
+                       <img class="product__img" src="images/catalog/product_item_3.png" alt="">
+                       <h3 class="product__title">Портупея “Джон Миллер”</h3>
+                       
+                       <div class="product__sizes">
+                           <button class="button__size active" type="button" data-id="7" data-value="xs">xs</button>
+                           <button class="button__size" type="button" data-id="7" data-value="s">s</button>
+                           <button class="button__size" type="button" data-id="7" data-value="m">m</button>
+                           <button class="button__size" type="button" data-id="7" data-value="l">l</button>
+                           <button class="button__size" type="button" data-id="7" data-value="xl">xl</button>
+                           <button class="button__size" type="button" data-id="7" data-value="xxl">xxl</button>
+                       </div>
+                       
+                       <div class="product__color">
+                           <button class="button__color button__color--black active" data-nomer="7" data-color="black"></button>
+                           <button class="button__color button__color--red" data-nomer="7" data-color="red"></button>
+                       </div>
+                       
+                       <div class="product__price">
+                              <span class="price__normal">4990 р.</span>
+                              <span class="price__discount">2990 р.</span>
+                       </div>
+                       <button class="btn btn--buy" type="button" data-modal="#modal__buy">Заказать</button>
+                   </div>
+<!-- ./product__item-->                   
+            <!-- .product__item-->
+                   <div class="product__item" data-category="erotic">
+                       <div class="product__discount">-53%</div>
+                       <img class="product__img" src="images/catalog/product_item_5.png" alt="">
+                       <h3 class="product__title">Портупея “Хитрая зайка”</h3>
+                       
+                       <div class="product__sizes">
+                           <button class="button__size active" type="button" data-id="8" data-value="xs">xs</button>
+                           <button class="button__size" type="button" data-id="8" data-value="s">s</button>
+                           <button class="button__size" type="button" data-id="8" data-value="m">m</button>
+                           <button class="button__size" type="button" data-id="8" data-value="l">l</button>
+                           <button class="button__size" type="button" data-id="8" data-value="xl">xl</button>
+                           <button class="button__size" type="button" data-id="8" data-value="xxl">xxl</button>
+                       </div>
+                       
+                       <div class="product__color">
+                           <button class="button__color button__color--black active" data-nomer="8" data-color="black"></button>
+                           <button class="button__color button__color--red" data-nomer="8" data-color="red"></button>
+                       </div>
+                       
+                       <div class="product__price">
+                              <span class="price__normal">4990 р.</span>
+                              <span class="price__discount">2990 р.</span>
+                       </div>
+                       <button class="btn btn--buy" type="button"  data-modal="#modal__buy">Заказать</button>
+                   </div>
+<!-- ./product__item-->                   
+<!-- .product__item-->
+                   <div class="product__item" data-category="erotic">
+                       <div class="product__discount">-53%</div>
+                       <img class="product__img" src="images/catalog/product_item_6.png" alt="">
+                       <h3 class="product__title">Портупея “Валькирия”</h3>
+                       
+                       <div class="product__sizes">
+                           <button class="button__size active" type="button" data-id="9" data-value="xs">xs</button>
+                           <button class="button__size" type="button" data-id="9" data-value="s">s</button>
+                           <button class="button__size" type="button" data-id="9" data-value="m">m</button>
+                           <button class="button__size" type="button" data-id="9" data-value="l">l</button>
+                           <button class="button__size" type="button" data-id="9" data-value="xl">xl</button>
+                           <button class="button__size" type="button" data-id="9" data-value="xxl">xxl</button>
+                       </div>
+                       
+                       <div class="product__color">
+                           <button class="button__color button__color--black active" data-nomer="9" data-color="black"></button>
+                           <button class="button__color button__color--red" data-nomer="9" data-color="red"></button>
+                       </div>
+                       
+                       <div class="product__price">
+                              <span class="price__normal">4990 р.</span>
+                              <span class="price__discount">2990 р.</span>
+                       </div>
+                       <button class="btn btn--buy" type="button"  data-modal="#modal__buy">Заказать</button>
+                   </div>
+<!-- ./product__item-->                   
+            
+            
+
+
+               </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+<!--./catalog-->
+
+<!--.buy-->
+<section class="buy" id="buy">
+     <div class="container">
+        <div class="buy__inner">
+            <h1 class="header__title">Как заказать? </h1>
+            <div class="buy__content">
+                <div class="buy__item">
+                    <div class="buy__item__img">
+                        <img src="images/buy/buy_item_1.png" alt="">
+                    </div>
+                    <div class="buy__item__round"></div>
+                    <div class="buy__item__text">Вы оформляете заказ на нашем сайте</div>
+                </div>
+                <div class="buy__item">
+                    <div class="buy__item__img">
+                        <img src="images/buy/buy_item_2.png" alt="">
+                    </div>
+                    <div class="buy__item__round"></div>
+                    <div class="buy__item__text">Менеджр перезвонит для уточнения деталей заказа</div>
+                    
+                </div>
+                <div class="buy__item">
+                    <div class="buy__item__img">
+                        <img src="images/buy/buy_item_3.png" alt="">
+                    </div>
+                    <div class="buy__item__round"></div>
+                    <div class="buy__item__text">В блежайшее время отправляем ваш заказ</div>
+                    
+                </div>
+                <div class="buy__item">
+                    <div class="buy__item__img">
+                        <img src="images/buy/buy_item_4.png" alt="">
+                    </div>
+                    <div class="buy__item__round"></div>
+                    <div class="buy__item__text">Вы оплачиваете заказ при получении</div>
+                    
+                </div>
+            </div>
+         </div>
+    </div>
+</section>
+<!--./buy-->
+<!--.modal-->
+<div class="modal" id="modal__buy">
+    <div class="modal__dialog">
+       <a class="modal__close" href="#">X</a>
+        <form class="modal__form" name="buy_form" action="/" method="post">
+           <input class="modal__input" type="text" placeholder="Ваше имя" name="modal__name">
+           <input class="modal__input" type="email" placeholder="Ваше Email" name="modal__email">
+           <input class="modal__input" type="tel" placeholder="Контактный телефон" name="modal__tel">
+           <input type="submit" value="Заказать"  class="btn btn--modal">
+        </form>
+        <p>Ваши контакты никогда не будут переданны третьим лицам</p>
+    </div>
+</div>
+<!--./modal-->
+
+</div>
+
+
+
+<script type="text/javascript" src="slick/slick/slick.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
